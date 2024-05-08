@@ -30,9 +30,22 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/LuckiestGuy.ttf"]
+          "fonts": [
+            "./assets/fonts/LuckiestGuy.ttf"
+          ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5a360fe4-a7c9-4148-b196-fd4f50894714"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5a360fe4-a7c9-4148-b196-fd4f50894714"
+    }
   }
 }
